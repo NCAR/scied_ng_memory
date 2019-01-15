@@ -1,6 +1,6 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
 import { environment } from '../../environments/environment';
-import { DataService } from '../services/data/data.service';
+import { DataService } from '../core/services/data/data.service';
 import { Subscription } from 'rxjs/Subscription';
 
 @Component({

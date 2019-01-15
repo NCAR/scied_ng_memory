@@ -1,7 +1,7 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
 import { environment } from '../../environments/environment';
-import { DataService } from '../services/data/data.service';
-import { WebappService } from '../services/webapp/webapp.service';
+import { DataService } from '../core/services/data/data.service';
+import { WebappService } from '../core/services/webapp/webapp.service';
 import { Subscription } from 'rxjs/Subscription';
 import { ActivatedRoute } from '@angular/router';
 
