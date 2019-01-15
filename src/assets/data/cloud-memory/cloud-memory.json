@@ -10,6 +10,7 @@
         "showContent": true,
         "showMessage": true,
         "showButtons": true,
+        "resolution": "exhibit",
         "messages": {
             "click": "Please, select a card.",
             "one_more": "Pick one more card.",
