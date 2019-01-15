@@ -1,0 +1,126 @@
+.gameBoard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-start: flex-start;
+}
+
+.card {
+  perspective: 1000;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  width: 245px;
+  height: 245px;
+}
+
+.gameBoard .complete {
+  position: absolute;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-top:20px;
+}
+
+.column {
+  margin-right: auto;
+  margin-left: auto;
+
+  /* for when there is no right sidebar */
+  &.tile_width_small {
+    width: 55%;
+  }
+
+  &.tile_width_med {
+    width: 65%;
+  }
+
+  /* for when there is a right sidebar */
+  &.left {
+    &.tile_width_small {
+      width: 55%;
+    }
+
+    &.tile_width_med {
+      width: 65%;
+    }
+  }
+
+  &.right {
+    display: flex;
+    flex-direction: column;
+
+    &.tile_width_small {
+      width: 45%;
+
+      &.content_two_rows {
+        .memory_info_container {}
+      }
+    }
+
+    &.tile_width_med {
+      width: 35%;
+    }
+
+    &.content_two_rows {
+      .memory_info_container{
+        margin-top: 20px;
+      }
+    }
+
+    .game_status_container {
+      background: rgba(255, 255, 255, 0.75);
+      padding: 20px;
+      margin-right: 20px;
+
+
+    }
+    .memory_info_container {
+      flex-grow: 1;
+      background: rgba(255, 255, 255, 0.75);
+      padding: 20px;
+      margin-right: 20px;
+
+      p {
+        font-size: 1.25em;
+      }
+
+      h2 {
+        font-size: 1.5em;
+      }
+
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    .messages {
+      font-size: 1.5em;
+    }
+  }
+}
+.menu {
+  display:flex;
+  flex-direction:row;
+  .gameButton {
+    flex-grow:1;
+    font-size: 24px;
+    margin-right:20px;
+    margin-bottom:20px;
+    padding: 10px 20px;
+    border: 1px solid #000;
+  }
+}

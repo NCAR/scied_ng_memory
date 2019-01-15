@@ -1,0 +1,19 @@
+<mat-grid-list cols="4" rowHeight="100px" *ngIf="data" class="memory-menu-container">
+  <mat-grid-tile colspan="3" rowspan="5">
+    <div class="memory_introduction">
+      <h2>{{data.game.text.introduction}}</h2>
+      <div class="instructions" *ngIf="data.game.text.instructions" [innerHTML]="data.game.text.instructions"></div>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1" rowspan="5">
+    <div class="game_level_options">
+      <button mat-raised-button draggable="false" onmousedown="return false" (click)="gotoLevel(item.key)" *ngFor="let item of data.game.levels | keyvalue">{{item.value.title}}</button>
+      <button mat-raised-button class="creditsButton" draggable="false" onmousedown="return false" (click)="toggleCreditsModal()">Credits</button>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<scied-modal *ngIf="data" [visible]="showCreditsModal" [modaltitle]="creditstitle" [closable]="closable" (visibleChange)="onVisibleChange($event)">
+  <div class="creditspage" [innerHTML]="data.game.credits.text"></div>
+  <button mat-raised-button color="primary" (click)="closeModal();" class="closeBtn">Close</button>
+</scied-modal>

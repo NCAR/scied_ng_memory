@@ -1,0 +1,29 @@
+:host-context(.cloud_memory1){
+    background-image: url(/assets/apps/cloud-memory/images/bkg/constable_seascape_study.jpg);
+}
+:host-context(.cloud_memory2) {
+    background-image: url(/assets/apps/cloud-memory/images/bkg/constable_weymouth_bay.jpg);
+}
+:host-context(.cloud_memory3) {
+    background-image: url(/assets/apps/cloud-memory/images/bkg/el_greco_toledo.jpg);
+}
+:host-context(.cloud_memory4) {
+    background-image: url(/assets/apps/cloud-memory/images/bkg/isaac_levitan.jpg);
+}
+:host-context(.cloud_memory5) {
+    background-image: url(/assets/apps/cloud-memory/images/bkg/van_gogh.jpg);
+}
+:host-context(.cloud_memory1) .memory_introduction,
+:host-context(.cloud_memory3) .memory_introduction{
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding:10px 20px;
+}
+:host-context(.cloud_memory2) .memory_introduction,
+:host-context(.cloud_memory4) .memory_introduction,
+:host-context(.cloud_memory5) .memory_introduction {
+    /* medium brown */
+    color: #663300;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding:10px 20px;
+}

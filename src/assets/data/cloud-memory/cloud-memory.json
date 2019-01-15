@@ -1,0 +1,434 @@
+{
+    "game": {
+        "backImage": "/assets/apps/cloud-memory/images/cardback.jpg",
+        "credits": {
+            "text": "<p style='text-align: center;'><img src='/assets/images/scied_logo_500x55.png' width='500px'/></p><p>This interactive was created by the <strong>UCAR Center for Science Education</strong>.</p><p>Software design by <strong>Randy M. Russell</strong>, and <strong>Sharon Clark</strong>.<br/>Programming by <strong>Sharon Clark</strong>.</p><p>Artwork by <strong>Lisa Gardiner</strong>.</p><p>Educational design and text by <strong>Randy M. Russell</strong>.</p><p>images provided by Carlye Calvin, Peggy LeMone, and Bob Henson, UCAR Digital image Library, and Ralph F. Kresge (NOAA's National Weather Service Collection).</p><p>&copy; 2012-2016 University Corporation for Atmospheric Research</p>"
+        },
+        "cardHalfSize": 122,
+        "showPairsText": true,
+        "showScore": true,
+        "showContent": true,
+        "showMessage": true,
+        "showButtons": true,
+        "messages": {
+            "click": "Please, select a card.",
+            "one_more": "Pick one more card.",
+            "miss": "Try again.",
+            "match": "Good job!",
+            "won": "You win! ",
+            "buttonTextSelectLevel": "Select a Level",
+            "buttonTextRestartLevel": "Restart",
+            "buttonTextPlayAgain":"Play Again",
+            "buttonTextQuit":"Quit",
+            "buttonToggleAudioOn":"Turn Audio Off",
+            "buttonToggleAudioOff":"Turn Audio On"
+        },
+        "levels": {
+            "level1": {
+                "title": "Easy Game"
+            },
+            "level2": {
+                "title": "Medium Difficulty"
+            },
+            "level3": {
+                "title": "Tricky"
+            }
+        },
+        "text": {
+            "introduction": "Choose Game Difficulty Level",
+            "instructions": "<p>Choose a difficulty level. Then click on the tiles (squares) to reveal pictures of different types of clouds. Try to match two pictures.</p>"
+        },
+        "screens": {
+            "menu":{
+              "class": [
+                "cloud_memory4",
+                "cloud_memory5"
+                ]
+            },
+            "game":{
+              "class": [
+                "cloud_memory1",
+                "cloud_memory2",
+                "cloud_memory3",
+                "cloud_memory4",
+                "cloud_memory5"
+              ]
+            }
+        }
+    },
+    "audio": {
+        "first": {
+            "id": "first",
+            "sources": [
+                {
+                    "src": "/assets/apps/memory/audio/first_tile_sound.mp3",
+                    "type": "audio/mp3"
+                    }
+				]
+        },
+        "match": {
+            "id": "match",
+            "sources": [
+                {
+                    "src": "/assets/apps/memory/audio/match_sound.mp3",
+                    "type": "audio/mp3"
+                    }
+				]
+        },
+        "miss": {
+            "id": "miss",
+            "sources": [
+                {
+                    "src": "/assets/apps/memory/audio/miss_sound.mp3",
+                    "type": "audio/mp3"
+                    }
+				]
+        }
+    },
+    "tiles": [
+
+        {
+            "title": "Altocumulus",
+            "className": "altocumulus",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/altocumulus_clouds_lemone.jpg",
+                "/assets/apps/cloud-memory/images/cards/altocumulus_clouds_lemone.jpg"
+            ]
+
+        },
+        {
+            "title": "Cirrocumulus",
+            "className": "cirrocumulus",
+            "levels": [
+                "level2"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/cirrocumulus_clouds_di01716.jpg",
+                "/assets/apps/cloud-memory/images/cards/cirrocumulus_clouds_di01716.jpg"
+            ]
+
+        },
+        {
+            "title": "Cirrocumulus",
+            "className": "cirrocumulus_name",
+            "levels": [
+                "level3"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/cirrocumulus_clouds_di01716.jpg",
+                "/assets/apps/cloud-memory/images/cards/cirrocumulus_cloud_name.png"
+            ]
+
+        },
+        {
+            "title": "Cirrus",
+            "className": "cirrus",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/cirrus_clouds_gardiner.jpg",
+                "/assets/apps/cloud-memory/images/cards/cirrus_clouds_gardiner.jpg"
+            ]
+
+        },
+        {
+            "title": "Cirrus",
+            "className": "cirrus_name",
+            "levels": [
+                "level3"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/cirrus_clouds_gardiner.jpg",
+                "/assets/apps/cloud-memory/images/cards/cirrus_cloud_name.png"
+            ]
+
+        },
+        {
+            "title": "Contrails",
+            "className": "contrails",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/contrails_gallagher.jpg",
+                "/assets/apps/cloud-memory/images/cards/contrails_gallagher.jpg"
+            ]
+
+        },
+        {
+            "title": "Contrails",
+            "className": "contrails_name",
+            "levels": [
+                "level3"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/contrails_gallagher.jpg",
+                "/assets/apps/cloud-memory/images/cards/contrails_name.png"
+            ]
+
+        },
+        {
+            "title": "Cumulonimbus",
+            "className": "cumulonimbus",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/cumulonimbus_cloud.jpg",
+                "/assets/apps/cloud-memory/images/cards/cumulonimbus_cloud.jpg"
+            ]
+        },
+        {
+            "title": "Cumulonimbus",
+            "className": "cumulonimbus_name",
+            "levels": [
+                "level3"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/cumulonimbus_cloud.jpg",
+                "/assets/apps/cloud-memory/images/cards/cumulonimbus_cloud_name.png"
+            ]
+        },
+        {
+            "title": "Cumulus",
+            "className": "cumulus",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/cumulus_clouds_calvin.jpg",
+                "/assets/apps/cloud-memory/images/cards/cumulus_clouds_calvin.jpg"
+            ]
+        },
+        {
+            "title": "Cumulus",
+            "className": "cumulus_name",
+            "levels": [
+                "level3"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/cumulus_clouds_calvin.jpg",
+                "/assets/apps/cloud-memory/images/cards/cumulus_cloud_name.png"
+            ]
+        },
+        {
+            "title": "Kelvin Helmholtz",
+            "className": "kelvinhelmholtz",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/kelvin_helmholtz_clouds_di01175.jpg",
+                "/assets/apps/cloud-memory/images/cards/kelvin_helmholtz_clouds_di01175.jpg"
+            ]
+        },
+        {
+            "title": "Kelvin Helmholtz",
+            "className": "kelvinhelmholtz_name",
+            "levels": [
+                "level3"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/kelvin_helmholtz_clouds_di01175.jpg",
+                "/assets/apps/cloud-memory/images/cards/kelvin_helmholtz_cloud_name.png"
+            ]
+        },
+        {
+            "title": "Kelvin Helmholtz",
+            "className": "kelvinhelmholtz_robinson",
+            "levels": [
+                "level2"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/kelvin_helmholtz_clouds_robinson_di00152.jpg",
+                "/assets/apps/cloud-memory/images/cards/kelvin_helmholtz_clouds_robinson_di00152.jpg"
+            ]
+        },
+        {
+            "title": "Lenticular",
+            "className": "lenticular",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/lenticular_clouds_calvin_di01497.jpg",
+                "/assets/apps/cloud-memory/images/cards/lenticular_clouds_calvin_di01497.jpg"
+            ]
+        },
+        {
+            "title": "Lenticular",
+            "className": "lenticular_name",
+            "levels": [
+                "level3"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/lenticular_clouds_calvin_di01497.jpg",
+                "/assets/apps/cloud-memory/images/cards/lenticular_cloud_name.png"
+            ]
+        },
+        {
+            "title": "Mammatus",
+            "className": "mammatus",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/mammatus_clouds.jpg",
+                "/assets/apps/cloud-memory/images/cards/mammatus_clouds.jpg"
+            ]
+        },
+        {
+            "title": "Mammatus",
+            "className": "mammatus_name",
+            "levels": [
+                "level3"
+            ],
+            "active": true,
+            "images": [
+                "/assets/apps/cloud-memory/images/cards/mammatus_clouds.jpg",
+                "/assets/apps/cloud-memory/images/cards/mammatus_cloud_name.png"
+            ]
+        }
+    ],
+    "information": {
+        "altocumulus": {
+            "image": "/assets/apps/cloud-memory/images/cards/altocumulus_clouds_lemone.jpg",
+            "reference": "altocumulus"
+        },
+        "cirrocumulus": {
+            "image": "/assets/apps/cloud-memory/images/cards/cirrocumulus_clouds_di01716.jpg",
+            "reference": "cirrocumulus"
+        },
+        "cirrocumulus_name": {
+            "image": "/assets/apps/cloud-memory/images/cards/cirrocumulus_clouds_di01716.jpg",
+            "reference": "cirrocumulus"
+        },
+        "cirrus": {
+            "image": "/assets/apps/cloud-memory/images/cards/cirrus_clouds_gardiner.jpg",
+            "reference": "cirrus"
+        },
+        "cirrus_name": {
+            "image": "/assets/apps/cloud-memory/images/cards/cirrus_clouds_gardiner.jpg",
+            "reference": "cirrus"
+        },
+        "contrails": {
+            "image": "/assets/apps/cloud-memory/images/cards/contrails_gallagher.jpg",
+            "reference": "contrails"
+        },
+        "contrails_name": {
+            "image": "/assets/apps/cloud-memory/images/cards/contrails_gallagher.jpg",
+            "reference": "contrails"
+        },
+        "cumulonimbus": {
+            "image": "/assets/apps/cloud-memory/images/cards/cumulonimbus_cloud.jpg",
+            "reference": "cumulonimbus"
+        },
+        "cumulonimbus_name": {
+            "image": "/assets/apps/cloud-memory/images/cards/cumulonimbus_cloud.jpg",
+            "reference": "cumulonimbus"
+        },
+        "cumulus": {
+            "image": "/assets/apps/cloud-memory/images/cards/cumulus_clouds_calvin.jpg",
+            "reference": "cumulus"
+        },
+        "cumulus_name": {
+            "image": "/assets/apps/cloud-memory/images/cards/cumulus_clouds_calvin.jpg",
+            "reference": "cumulus"
+        },
+        "kelvinhelmholtz_robinson": {
+            "image": "/assets/apps/cloud-memory/images/cards/kelvin_helmholtz_clouds_robinson_di00152.jpg",
+            "reference": "kelvinhelmholtz"
+        },
+        "kelvinhelmholtz": {
+            "image": "/assets/apps/cloud-memory/images/cards/kelvin_helmholtz_clouds_di01175.jpg",
+            "reference": "kelvinhelmholtz"
+        },
+        "kelvinhelmholtz_name": {
+            "image": "/assets/apps/cloud-memory/images/cards/kelvin_helmholtz_clouds_di01175.jpg",
+            "reference": "kelvinhelmholtz"
+        },
+        "lenticular": {
+            "image": "/assets/apps/cloud-memory/images/cards/lenticular_clouds_calvin_di01497.jpg",
+            "reference": "lenticular"
+        },
+        "lenticular_name": {
+            "image": "/assets/apps/cloud-memory/images/cards/lenticular_clouds_calvin_di01497.jpg",
+            "reference": "lenticular"
+        },
+        "mammatus": {
+            "image": "/assets/apps/cloud-memory/images/cards/mammatus_clouds.jpg",
+            "reference": "mammatus"
+        },
+        "mammatus_name": {
+            "image": "/assets/apps/cloud-memory/images/cards/mammatus_clouds.jpg",
+            "reference": "mammatus"
+        }
+    },
+    "infocontent": {
+        "altocumulus": {
+            "title": "Altocumulus",
+            "content": "<p>Altocumulus clouds are mid-level, grayish-white clouds with one part darker than the other. Altocumulus clouds usually form in groups and are about one kilometer thick. Altocumulus clouds are about as wide as your thumb when you hold up your hand at arm's length. If you see altocumulus clouds on a warm, humid morning, there might be a thunderstorm by late afternoon.</p>"
+        },
+        "cirrocumulus": {
+            "title": "Cirrocumulus",
+            "content": "<p>Cirrocumulus clouds are small rounded puffs that usually appear in long rows high in the sky. Cirrocumulus are usually white, but sometimes appear gray. They are the same size or smaller than the width of your littlest finger when you hold up your hand at arm's length. When these clouds cover a lot of the sky, they can look like the scales of a fish, which is it is called a \"mackerel sky.\" Cirrocumulus are common in winter and indicate fair, but cold, weather.</p>"
+        },
+        "cirrus": {
+            "title": "Cirrus",
+            "content": "<p>Cirrus clouds are made of ice crystals and look like long, thin, wispy white streamers high in the sky. They are commonly known as \"mare's tails\" because they are shaped like the tail of a horse. Cirrus clouds are often seen during fair weather. But if they build up larger over time and are followed by cirrostratus clouds, there may be a warm front on the way. </p>"
+        },
+        "contrails": {
+            "title": "Contrails",
+            "content": "<p>Contrails look like long, very narrow streaks. They are formed by the exhaust of aircraft, and usually erode within an hour. They are usually found above 26,000 feet (above 8 km). They occur in all types of weather but are most evident on otherwise clear days.</p>"
+        },
+        "cumulonimbus": {
+            "title": "Cumulonimbus",
+            "content": "<p>Cumulonimbus clouds also have vertical growth and can grow up to 10 km high. At this height, high winds will flatten the top of the cloud out into an anvil-like shape. Cumulonimbus clouds are thunderstorm clouds and are associated with heavy rain, snow, hail, lightning, and sometimes tornadoes.</p>"
+        },
+        "cumulus": {
+            "title": "Cumulus",
+            "content": "<p>Cumulus clouds have vertical growth. They are puffy white or light gray clouds that look like floating cotton balls. Cumulus clouds have sharp outlines and a flat base at a height of 1000m. They are generally about one kilometer wide which is about the size of your fist or larger when you hold up your hand at arm's length to look at the cloud. Cumulus clouds can be associated with fair or stormy weather. Watch for rain showers when the cloud’s tops look like cauliflower heads.</p>"
+        },
+        "kelvinhelmholtz": {
+            "title": "Kelvin-Helmholtz",
+            "content": "<p>Kelvin-Helmholtz clouds look like rows of curlicues that resemble ocean waves.  They are made of ice crystals and/or water droplets and are found from the top of fog layers to as high as 30,000 feet (ground level to 9km).  Winds are stronger near the top of these fair-weather clouds than at the bottom, with gives them their wavelike shape.</p>"
+        },
+        "lenticular": {
+            "title": "Lenticular",
+            "content": "<p>Lenticular clouds are thin, lens-shaped clouds that are found above or just downwind of mountain ranges.  They are made of ice crystal or water droplets and are found from 10,000 to 30,000 feet (3 to 9km). They are produced by very strong winds and stable air flowing over mountain ranges.</p>"
+        },
+        "mammatus": {
+            "title": "Mammatus",
+            "content": "<p>Mammatus clouds look like pouches that hang underneath the base of a cloud. They are made of water droplets and are found below 6,500 feet (below 2 km). These clouds usually form during warm months, and are formed by descending air in the cloud.</p>"
+        }
+    }
+}

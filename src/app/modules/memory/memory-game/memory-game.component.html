@@ -1,0 +1,37 @@
+<div class="row" >
+  <div class="column" [class.left]="data.game.showButtons || data.game.showPairsText || data.game.showScore  || data.game.showContent" [class.tile_width_small]="tile_width_small" [class.tile_width_med]="tile_width_med">
+    <div *ngIf="tiles" class="gameBoard">
+      <div memoryCard *ngFor="let tile of tiles" [tile]="tile" (click)="memoryGameService.flip(tile)" class="card" [class.flipped]="tile.flipped"></div>
+      <div class="complete" *ngIf="memoryGameService.game.showLevelButton && !data.game.showPairsText && !data.game.showScore && !data.game.showContent">
+        <h2>You Win</h2>
+        <button class="levelButton" draggable="false" onmousedown="return false" (click)="webapp.goToPage(baseUrl)" *ngIf="memoryGameService.game.showLevelButton">Select a Level</button>
+      </div>
+    </div>
+  </div>
+  <div class="column right" *ngIf="data.game.showButtons || data.game.showPairsText || data.game.showScore  || data.game.showContent" [class.tile_width_small]="tile_width_small" [class.tile_width_med]="tile_width_med" [class.content_two_rows]="data.game.showPairsText || data.game.showScore">
+    <div class="menu" *ngIf="memoryGameService.game.showButtons">
+      <button mat-raised-button class="gameButton" draggable="false" onmousedown="return false" (click)="reloadData()" *ngIf="memoryGameService.game.restartButtonText">{{memoryGameService.game.restartButtonText}}</button>
+      <button mat-raised-button class="gameButton" draggable="false" onmousedown="return false" (click)="webapp.goToPage(baseUrl)" *ngIf="memoryGameService.game.chooseLevelButtonText">{{memoryGameService.game.chooseLevelButtonText}}</button>
+      <button mat-raised-button class="gameButton" draggable="false" onmousedown="return false" (click)="memoryGameService.toggleAudio()" *ngIf="memoryGameService.game.audioButtonText">{{memoryGameService.game.audioButtonText}}</button>
+    </div>
+    <div class="game_status_container" *ngIf="data.game.showPairsText || data.game.showScore">
+      <h2 *ngIf="data.game.showPairsText" class="pairs_text">Pairs left to match: {{memoryGameService.game.unmatchedPairs}}</h2>
+      <h2 *ngIf="data.game.showScore" class="score_text">Score: {{memoryGameService.game.currentScore}}</h2>
+      <div class="messages" *ngIf="data.game.showMessage && (data.game.showPairsText || data.game.showScore)" [innerHTML]="memoryGameService.game.message"></div>
+    </div>
+
+    <div class="memory_info_container" *ngIf="data.game.showContent">
+        <div class="messages" *ngIf="data.game.showMessage && (!data.game.showPairsText && !data.game.showScore)" [innerHTML]="memoryGameService.game.message"></div>
+        <h2 [innerHTML]="memoryGameService.game.matchtitle"></h2>
+        <img *ngIf="memoryGameService.game.matchimage" [src]="memoryGameService.game.matchimage" draggable="false" onmousedown="return false">
+        <p [innerHTML]="memoryGameService.game.matchcontent" class="content"></p>
+
+    </div>
+
+  </div>
+
+</div>
+
+<audio [id]="audiodata.value.id" preload="auto" *ngFor="let audiodata of data.audio | keyvalue">
+  <source [src]="source.src" [type]="source.type" *ngFor="let source of audiodata.value.sources">
+</audio>
