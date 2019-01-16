@@ -7,14 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MemoryModule } from './core/modules/memory/memory.module';
 
-import { CloudMemoryGameComponent } from './cloud-memory/cloud-memory-game.component';
-import { CloudMemoryMenuComponent } from './cloud-memory/cloud-memory-menu.component';
+import { SunMemoryGameComponent } from './sun-memory/sun-memory-game.component';
+import { SunMemoryMenuComponent } from './sun-memory/sun-memory-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CloudMemoryGameComponent,
-    CloudMemoryMenuComponent
+    SunMemoryGameComponent,
+    SunMemoryMenuComponent
   ],
   imports: [
     BrowserModule,

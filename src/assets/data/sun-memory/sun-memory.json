@@ -1,0 +1,295 @@
+{
+    "game": {
+        "backImage": "/assets/apps/sun-memory/images/cards/cardback.png",
+        "credits": {
+            "text": "<p style='text-align: center;'><img src='/assets/images/scied_logo_500x55.png' width='500px'/></p><p>This interactive was created by the <strong>UCAR Center for Science Education</strong>.</p><p>Software design by <strong>Randy M. Russell</strong>, and <strong>Sharon Clark</strong>.<br/>Programming by <strong>Sharon Clark</strong>.</p><p>Educational design and text by <strong>Randy M. Russell</strong>.</p><p>&copy; 2012-2019 University Corporation for Atmospheric Research</p>"
+        },
+        "showPairsText": true,
+        "showScore": true,
+        "showContent": true,
+        "showMessage": true,
+        "showButtons": true,
+        "resolution": "exhibit",
+        "messages": {
+            "click": "Please, select a card.",
+            "one_more": "Pick one more card.",
+            "miss": "Try again.",
+            "match": "Good job!",
+            "won": "You win! ",
+            "buttonTextSelectLevel": "Select a Level",
+            "buttonTextRestartLevel": "Restart",
+            "buttonTextPlayAgain":"Play Again",
+            "buttonTextQuit":"Quit",
+            "buttonToggleAudioOn":"Turn Audio Off",
+            "buttonToggleAudioOff":"Turn Audio On"
+        },
+        "levels": {
+            "level1": {
+                "title": "Easy Version"
+            },
+            "level2": {
+                "title": "Medium Difficulty"
+            }
+        },
+        "text": {
+            "introduction": "Choose Game Difficulty Level",
+            "instructions": "<p>Choose a difficulty level. Then click on the tiles (squares) to reveal pictures of different types of clouds. Try to match two pictures.</p>"
+        },
+        "screens": {
+            "menu":{
+              "class": [
+                "sun_memory4"
+                ]
+            },
+            "game":{
+              "class": [
+                "sun_memory1",
+                "sun_memory2",
+                "sun_memory3",
+                "sun_memory5"
+              ]
+            }
+        }
+    },
+    "audio": {
+        "first": {
+            "id": "first",
+            "sources": [
+                {
+                    "src": "/assets/apps/memory/audio/first_tile_sound.mp3",
+                    "type": "audio/mp3"
+                    }
+				]
+        },
+        "match": {
+            "id": "match",
+            "sources": [
+                {
+                    "src": "/assets/apps/memory/audio/match_sound.mp3",
+                    "type": "audio/mp3"
+                    }
+				]
+        },
+        "miss": {
+            "id": "miss",
+            "sources": [
+                {
+                    "src": "/assets/apps/memory/audio/miss_sound.mp3",
+                    "type": "audio/mp3"
+                    }
+				]
+        }
+    },
+    "tiles": [
+
+        {
+            "title": "corona_eclipse",
+            "className": "corona_eclipse",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "/assets/apps/sun-memory/images/cards/corona_eclipse.jpg",
+                "/assets/apps/sun-memory/images/cards/corona_eclipse.jpg"
+            ]
+
+        },
+        {
+            "title": "helioseismology",
+            "className": "helioseismology",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "/assets/apps/sun-memory/images/cards/helioseismology.jpg",
+                "/assets/apps/sun-memory/images/cards/helioseismology.jpg"
+            ]
+
+        },
+        {
+            "title": "sunspot",
+            "className": "sunspot",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "/assets/apps/sun-memory/images/cards/sunspot.jpg",
+                "/assets/apps/sun-memory/images/cards/sunspot.jpg"
+            ]
+
+        },
+        {
+            "title": "sunspot2",
+            "className": "sunspot2",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "/assets/apps/sun-memory/images/cards/sunspot2.jpg",
+                "/assets/apps/sun-memory/images/cards/sunspot2.jpg"
+            ]
+
+        },
+        {
+            "title": "cme",
+            "className": "cme",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "/assets/apps/sun-memory/images/cards/cme.jpg",
+                "/assets/apps/sun-memory/images/cards/cme.jpg"
+            ]
+
+        },
+        {
+            "title": "coronal_loop",
+            "className": "coronal_loop",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "/assets/apps/sun-memory/images/cards/coronal_loop.jpg",
+                "/assets/apps/sun-memory/images/cards/coronal_loop.jpg"
+            ]
+
+        },
+        {
+            "title": "aurora",
+            "className": "aurora",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "/assets/apps/sun-memory/images/cards/aurora.jpg",
+                "/assets/apps/sun-memory/images/cards/aurora.jpg"
+            ]
+
+        },
+        {
+            "title": "convection",
+            "className": "convection",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "/assets/apps/sun-memory/images/cards/convection_zone.jpg",
+                "/assets/apps/sun-memory/images/cards/convection_zone.jpg"
+            ]
+        },
+        {
+            "title": "magnetosphere",
+            "className": "magnetosphere",
+            "levels": [
+                "level2"
+            ],
+            "images": [
+                "/assets/apps/sun-memory/images/cards/magnetosphere.jpg",
+                "/assets/apps/sun-memory/images/cards/magnetosphere.jpg"
+            ]
+        },
+        {
+            "title": "differential_rotation",
+            "className": "differential_rotation",
+            "levels": [
+                "level2"
+            ],
+            "images": [
+                "/assets/apps/sun-memory/images/cards/dr.jpg",
+                "/assets/apps/sun-memory/images/cards/dr.jpg"
+            ]
+        }
+    ],
+    "information": {
+        "corona_eclipse": {
+            "image": "/assets/apps/sun-memory/images/cards/corona_eclipse.jpg",
+            "reference": "corona_eclipse"
+        },
+        "helioseismology": {
+            "image": "/assets/apps/sun-memory/images/cards/helioseismology.jpg",
+            "reference": "helioseismology"
+        },
+        "sunspot": {
+            "image": "/assets/apps/sun-memory/images/cards/sunspot.jpg",
+            "reference": "sunspot"
+        },
+        "sunspot2": {
+            "image": "/assets/apps/sun-memory/images/cards/sunspot.jpg",
+            "reference": "sunspot2"
+        },
+        "cme": {
+            "image": "/assets/apps/sun-memory/images/cards/cme_icon.jpg",
+            "reference": "cme"
+        },
+        "coronal_loop": {
+            "image": "/assets/apps/sun-memory/images/cards/coronal_loop.jpg",
+            "reference": "coronal_loop"
+        },
+        "aurora": {
+            "image": "/assets/apps/sun-memory/images/cards/aurora.jpg",
+            "reference": "aurora"
+        },
+        "convection": {
+            "image": "/assets/apps/sun-memory/images/cards/convection_zone.jpg",
+            "reference": "convection"
+        },
+        "magnetosphere": {
+            "image": "/assets/apps/sun-memory/images/cards/magnetosphere.jpg",
+            "reference": "magnetosphere"
+        },
+        "differential_rotation": {
+            "image": "/assets/apps/sun-memory/images/cards/dr.jpg",
+            "reference": "differential_rotation"
+        }
+    },
+    "infocontent": {
+        "corona_eclipse": {
+            "title": "Corona",
+            "content": "<p>The corona is the outer atmosphere of the Sun. It extends many thousands of kilometers (miles) above the visible 'surface' of the Sun, gradually transforming into the solar wind that flows outward through our solar system.</p>"
+        },
+        "helioseismology": {
+            "title": "Helioseismology",
+            "content": "<p>Helioseismology is the study of the propagation of wave oscillations, particularly acoustic pressure waves, in the Sun.  The Sun and other stars each ring like a bell in millions of distinct tones all playing at the same time.  The noise of these sound waves can be seen on the surface as differences in brightness or as vertical movement.</p>"
+        },
+        "sunspot": {
+            "title": "Sunspot",
+            "content": "<p>Sunspots are dark, planet-sized regions that appear on the 'surface' of the Sun. Sunspots are 'dark' because they are cooler than their surroundings. A large sunspot might have a central temperature of 4,000 K (about 3,700° C or 6,700° F), much lower than the 5,800 K (about 5,500° C or 10,000° F) temperature of the adjacent photosphere. Sunspots are only dark in contrast to the bright face of the Sun. If you could cut an average sunspot out of the Sun and place it elsewhere in the night sky, it would be about as bright as a full moon. Sunspots have a lighter outer section called the penumbra, and a darker central region named the umbra.</p>"
+        },
+        "sunspot2": {
+            "title": "Sunspot",
+            "content": "<p>Sunspots are dark, planet-sized regions that appear on the 'surface' of the Sun. Sunspots are 'dark' because they are cooler than their surroundings. A large sunspot might have a central temperature of 4,000 K (about 3,700° C or 6,700° F), much lower than the 5,800 K (about 5,500° C or 10,000° F) temperature of the adjacent photosphere. Sunspots are only dark in contrast to the bright face of the Sun. If you could cut an average sunspot out of the Sun and place it elsewhere in the night sky, it would be about as bright as a full moon. Sunspots have a lighter outer section called the penumbra, and a darker central region named the umbra.</p>"
+        },
+        "cme": {
+            "title": "Coronal Mass Ejection(CME)",
+            "content": "<p>A Coronal Mass Ejection (CME) is an explosive outburst of solar wind plasma from the Sun. The blast of a CME typically carries roughly a billion tons of material outward from the Sun at speeds on the order of hundreds of kilometers per second. A CME contains particle radiation (mostly protons and electrons) and powerful magnetic fields. These blasts originate in magnetically disturbed regions of the corona, the Sun's upper atmosphere - hence the name.</p>"
+        },
+        "coronal_loop": {
+            "title": "Coronal Loop",
+            "content": "<p>Coronal loops are bright, curving structures that appear as arcs above the Sun's surface. Hot plasma causes these loops to glow. The electrified plasma flows along the curving lines of powerful magnetic fields, giving the coronal loops their characteristic shapes.</p>"
+        },
+        "aurora": {
+            "title": "Aurora",
+            "content": "<p>Electric and magnetic fields often channel the flow of charged plasma particles. Plasma in Earth's magnetosphere sometimes flows along Earth's magnetic field towards the polar regions, creating the colorful light shows in the sky which we call the aurora or Southern and Northern Lights. These beautiful displays occur when energetic plasma particles collide with gases in the atmosphere, causing them to glow in much the same way that fluorescent and neon lights shine.</p>"
+        },
+        "convection": {
+            "title": "Convection",
+            "content": "<p>The convection zone is an interior region of the Sun. It is named after the dominant mode of energy flow in this layer; heat moves upward via roiling convection, much like the bubbling motion in a pot of boiling oatmeal.</p>"
+        },
+        "magnetosphere": {
+            "title": "Magnetosphere",
+            "content": "<p>Earth's magnetic field generates a sort of 'magnetic bubble' in space around our planet. This region is called the magnetosphere. Earth's magnetosphere is a bit like a magnetic force field that surrounds our planet. The magnetosphere protects our planet from some types of radiation from the Sun.</p>"
+        },
+        "differential_rotation": {
+            "title": "Differential Rotation",
+            "content": "<p>The Sun rotates more rapidly at the equator (with a 27 day period) than it does at the poles (where the period is around 31 days). Over time, this differential rotation rate causes the Sun's magnetic field to become 'all tangled up'. The tangles are visually manifested as sunspots; regions of intense magnetic fields over a thousand times more powerful than the Sun's general field, where hot matter flowing up to the photosphere from the underlying convection zone is prevented from entering.</p>"
+        }
+    }
+}

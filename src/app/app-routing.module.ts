@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CloudMemoryMenuComponent } from './cloud-memory/cloud-memory-menu.component';
-import { CloudMemoryGameComponent } from './cloud-memory/cloud-memory-game.component';
+import { SunMemoryMenuComponent } from './sun-memory/sun-memory-menu.component';
+import { SunMemoryGameComponent } from './sun-memory/sun-memory-game.component';
 
 const routes: Routes = [
   {
     path: '',
       children: [
-        { path: '', component: CloudMemoryMenuComponent },
-        { path: ':id', component: CloudMemoryGameComponent }
+        { path: '', component: SunMemoryMenuComponent },
+        { path: ':id', component: SunMemoryGameComponent }
       ]
   }
 ];
