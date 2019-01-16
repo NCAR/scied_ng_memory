@@ -2,9 +2,8 @@
     "game": {
         "backImage": "/assets/apps/cloud-memory/images/cardback.jpg",
         "credits": {
-            "text": "<p style='text-align: center;'><img src='/assets/images/scied_logo_500x55.png' width='500px'/></p><p>This interactive was created by the <strong>UCAR Center for Science Education</strong>.</p><p>Software design by <strong>Randy M. Russell</strong>, and <strong>Sharon Clark</strong>.<br/>Programming by <strong>Sharon Clark</strong>.</p><p>Artwork by <strong>Lisa Gardiner</strong>.</p><p>Educational design and text by <strong>Randy M. Russell</strong>.</p><p>images provided by Carlye Calvin, Peggy LeMone, and Bob Henson, UCAR Digital image Library, and Ralph F. Kresge (NOAA's National Weather Service Collection).</p><p>&copy; 2012-2016 University Corporation for Atmospheric Research</p>"
+            "text": "<p style='text-align: center;'><img src='/assets/images/scied_logo_500x55.png' width='500px'/></p><p>This interactive was created by the <strong>UCAR Center for Science Education</strong>.</p><p>Software design by <strong>Randy M. Russell</strong>, and <strong>Sharon Clark</strong>.<br/>Programming by <strong>Sharon Clark</strong>.</p><p>Artwork by <strong>Lisa Gardiner</strong>.</p><p>Educational design and text by <strong>Randy M. Russell</strong>.</p><p>images provided by Carlye Calvin, Peggy LeMone, and Bob Henson, UCAR Digital image Library, and Ralph F. Kresge (NOAA's National Weather Service Collection).</p><p>&copy; 2012-2019 University Corporation for Atmospheric Research</p>"
         },
-        "cardHalfSize": 122,
         "showPairsText": true,
         "showScore": true,
         "showContent": true,
@@ -95,7 +94,6 @@
                 "level1",
                 "level2"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/altocumulus_clouds_lemone.jpg",
                 "/assets/apps/cloud-memory/images/cards/altocumulus_clouds_lemone.jpg"
@@ -108,7 +106,6 @@
             "levels": [
                 "level2"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/cirrocumulus_clouds_di01716.jpg",
                 "/assets/apps/cloud-memory/images/cards/cirrocumulus_clouds_di01716.jpg"
@@ -121,7 +118,6 @@
             "levels": [
                 "level3"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/cirrocumulus_clouds_di01716.jpg",
                 "/assets/apps/cloud-memory/images/cards/cirrocumulus_cloud_name.png"
@@ -135,7 +131,6 @@
                 "level1",
                 "level2"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/cirrus_clouds_gardiner.jpg",
                 "/assets/apps/cloud-memory/images/cards/cirrus_clouds_gardiner.jpg"
@@ -148,7 +143,6 @@
             "levels": [
                 "level3"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/cirrus_clouds_gardiner.jpg",
                 "/assets/apps/cloud-memory/images/cards/cirrus_cloud_name.png"
@@ -162,7 +156,6 @@
                 "level1",
                 "level2"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/contrails_gallagher.jpg",
                 "/assets/apps/cloud-memory/images/cards/contrails_gallagher.jpg"
@@ -175,7 +168,6 @@
             "levels": [
                 "level3"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/contrails_gallagher.jpg",
                 "/assets/apps/cloud-memory/images/cards/contrails_name.png"
@@ -189,7 +181,6 @@
                 "level1",
                 "level2"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/cumulonimbus_cloud.jpg",
                 "/assets/apps/cloud-memory/images/cards/cumulonimbus_cloud.jpg"
@@ -201,7 +192,6 @@
             "levels": [
                 "level3"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/cumulonimbus_cloud.jpg",
                 "/assets/apps/cloud-memory/images/cards/cumulonimbus_cloud_name.png"
@@ -214,7 +204,6 @@
                 "level1",
                 "level2"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/cumulus_clouds_calvin.jpg",
                 "/assets/apps/cloud-memory/images/cards/cumulus_clouds_calvin.jpg"
@@ -226,7 +215,6 @@
             "levels": [
                 "level3"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/cumulus_clouds_calvin.jpg",
                 "/assets/apps/cloud-memory/images/cards/cumulus_cloud_name.png"
@@ -239,7 +227,6 @@
                 "level1",
                 "level2"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/kelvin_helmholtz_clouds_di01175.jpg",
                 "/assets/apps/cloud-memory/images/cards/kelvin_helmholtz_clouds_di01175.jpg"
@@ -251,7 +238,6 @@
             "levels": [
                 "level3"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/kelvin_helmholtz_clouds_di01175.jpg",
                 "/assets/apps/cloud-memory/images/cards/kelvin_helmholtz_cloud_name.png"
@@ -263,7 +249,6 @@
             "levels": [
                 "level2"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/kelvin_helmholtz_clouds_robinson_di00152.jpg",
                 "/assets/apps/cloud-memory/images/cards/kelvin_helmholtz_clouds_robinson_di00152.jpg"
@@ -276,7 +261,6 @@
                 "level1",
                 "level2"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/lenticular_clouds_calvin_di01497.jpg",
                 "/assets/apps/cloud-memory/images/cards/lenticular_clouds_calvin_di01497.jpg"
@@ -288,7 +272,6 @@
             "levels": [
                 "level3"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/lenticular_clouds_calvin_di01497.jpg",
                 "/assets/apps/cloud-memory/images/cards/lenticular_cloud_name.png"
@@ -301,7 +284,6 @@
                 "level1",
                 "level2"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/mammatus_clouds.jpg",
                 "/assets/apps/cloud-memory/images/cards/mammatus_clouds.jpg"
@@ -313,7 +295,6 @@
             "levels": [
                 "level3"
             ],
-            "active": true,
             "images": [
                 "/assets/apps/cloud-memory/images/cards/mammatus_clouds.jpg",
                 "/assets/apps/cloud-memory/images/cards/mammatus_cloud_name.png"
