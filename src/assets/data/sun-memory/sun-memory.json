@@ -4,12 +4,12 @@
         "credits": {
             "text": "<p style='text-align: center;'><img src='/assets/images/scied_logo_500x55.png' width='500px'/></p><p>This interactive was created by the <strong>UCAR Center for Science Education</strong>.</p><p>Software design by <strong>Randy M. Russell</strong>, and <strong>Sharon Clark</strong>.<br/>Programming by <strong>Sharon Clark</strong>.</p><p>Educational design and text by <strong>Randy M. Russell</strong>.</p><p>&copy; 2012-2019 University Corporation for Atmospheric Research</p>"
         },
-        "showPairsText": true,
-        "showScore": true,
+        "showPairsText": false,
+        "showScore": false,
         "showContent": true,
-        "showMessage": true,
+        "showMessage": false,
         "showButtons": true,
-        "resolution": "exhibit",
+        "resolution": "web",
         "messages": {
             "click": "Please, select a card.",
             "one_more": "Pick one more card.",
