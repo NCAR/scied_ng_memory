@@ -1,8 +1,8 @@
 {
     "game": {
-        "backImage": "/assets/apps/sun-memory/images/cards/cardback.png",
+        "backImage": "assets/apps/sun-memory/images/cards/cardback.png",
         "credits": {
-            "text": "<p style='text-align: center;'><img src='/assets/images/scied_logo_500x55.png' width='500px'/></p><p>This interactive was created by the <strong>UCAR Center for Science Education</strong>.</p><p>Software design by <strong>Randy M. Russell</strong>, and <strong>Sharon Clark</strong>.<br/>Programming by <strong>Sharon Clark</strong>.</p><p>Educational design and text by <strong>Randy M. Russell</strong>.</p><p>&copy; 2012-2019 University Corporation for Atmospheric Research</p>"
+            "text": "<p style='text-align: center;'><img src='assets/images/scied_logo_500x55.png' width='500px'/></p><p>This interactive was created by the <strong>UCAR Center for Science Education</strong>.</p><p>Software design by <strong>Randy M. Russell</strong>, and <strong>Sharon Clark</strong>.<br/>Programming by <strong>Sharon Clark</strong>.</p><p>Educational design and text by <strong>Randy M. Russell</strong>.</p><p>&copy; 2012-2019 University Corporation for Atmospheric Research</p>"
         },
         "showPairsText": false,
         "showScore": false,
@@ -56,7 +56,7 @@
             "id": "first",
             "sources": [
                 {
-                    "src": "/assets/apps/memory/audio/first_tile_sound.mp3",
+                    "src": "assets/apps/memory/audio/first_tile_sound.mp3",
                     "type": "audio/mp3"
                     }
 				]
@@ -65,7 +65,7 @@
             "id": "match",
             "sources": [
                 {
-                    "src": "/assets/apps/memory/audio/match_sound.mp3",
+                    "src": "assets/apps/memory/audio/match_sound.mp3",
                     "type": "audio/mp3"
                     }
 				]
@@ -74,7 +74,7 @@
             "id": "miss",
             "sources": [
                 {
-                    "src": "/assets/apps/memory/audio/miss_sound.mp3",
+                    "src": "assets/apps/memory/audio/miss_sound.mp3",
                     "type": "audio/mp3"
                     }
 				]
@@ -90,8 +90,8 @@
                 "level2"
             ],
             "images": [
-                "/assets/apps/sun-memory/images/cards/corona_eclipse.jpg",
-                "/assets/apps/sun-memory/images/cards/corona_eclipse.jpg"
+                "assets/apps/sun-memory/images/cards/corona_eclipse.jpg",
+                "assets/apps/sun-memory/images/cards/corona_eclipse.jpg"
             ]
 
         },
@@ -103,8 +103,8 @@
                 "level2"
             ],
             "images": [
-                "/assets/apps/sun-memory/images/cards/helioseismology.jpg",
-                "/assets/apps/sun-memory/images/cards/helioseismology.jpg"
+                "assets/apps/sun-memory/images/cards/helioseismology.jpg",
+                "assets/apps/sun-memory/images/cards/helioseismology.jpg"
             ]
 
         },
@@ -116,8 +116,8 @@
                 "level2"
             ],
             "images": [
-                "/assets/apps/sun-memory/images/cards/sunspot.jpg",
-                "/assets/apps/sun-memory/images/cards/sunspot.jpg"
+                "assets/apps/sun-memory/images/cards/sunspot.jpg",
+                "assets/apps/sun-memory/images/cards/sunspot.jpg"
             ]
 
         },
@@ -129,8 +129,8 @@
                 "level2"
             ],
             "images": [
-                "/assets/apps/sun-memory/images/cards/sunspot2.jpg",
-                "/assets/apps/sun-memory/images/cards/sunspot2.jpg"
+                "assets/apps/sun-memory/images/cards/sunspot2.jpg",
+                "assets/apps/sun-memory/images/cards/sunspot2.jpg"
             ]
 
         },
@@ -142,8 +142,8 @@
                 "level2"
             ],
             "images": [
-                "/assets/apps/sun-memory/images/cards/cme.jpg",
-                "/assets/apps/sun-memory/images/cards/cme.jpg"
+                "assets/apps/sun-memory/images/cards/cme.jpg",
+                "assets/apps/sun-memory/images/cards/cme.jpg"
             ]
 
         },
@@ -155,8 +155,8 @@
                 "level2"
             ],
             "images": [
-                "/assets/apps/sun-memory/images/cards/coronal_loop.jpg",
-                "/assets/apps/sun-memory/images/cards/coronal_loop.jpg"
+                "assets/apps/sun-memory/images/cards/coronal_loop.jpg",
+                "assets/apps/sun-memory/images/cards/coronal_loop.jpg"
             ]
 
         },
@@ -168,8 +168,8 @@
                 "level2"
             ],
             "images": [
-                "/assets/apps/sun-memory/images/cards/aurora.jpg",
-                "/assets/apps/sun-memory/images/cards/aurora.jpg"
+                "assets/apps/sun-memory/images/cards/aurora.jpg",
+                "assets/apps/sun-memory/images/cards/aurora.jpg"
             ]
 
         },
@@ -181,8 +181,8 @@
                 "level2"
             ],
             "images": [
-                "/assets/apps/sun-memory/images/cards/convection_zone.jpg",
-                "/assets/apps/sun-memory/images/cards/convection_zone.jpg"
+                "assets/apps/sun-memory/images/cards/convection_zone.jpg",
+                "assets/apps/sun-memory/images/cards/convection_zone.jpg"
             ]
         },
         {
@@ -192,8 +192,8 @@
                 "level2"
             ],
             "images": [
-                "/assets/apps/sun-memory/images/cards/magnetosphere.jpg",
-                "/assets/apps/sun-memory/images/cards/magnetosphere.jpg"
+                "assets/apps/sun-memory/images/cards/magnetosphere.jpg",
+                "assets/apps/sun-memory/images/cards/magnetosphere.jpg"
             ]
         },
         {
@@ -203,50 +203,50 @@
                 "level2"
             ],
             "images": [
-                "/assets/apps/sun-memory/images/cards/dr.jpg",
-                "/assets/apps/sun-memory/images/cards/dr.jpg"
+                "assets/apps/sun-memory/images/cards/dr.jpg",
+                "assets/apps/sun-memory/images/cards/dr.jpg"
             ]
         }
     ],
     "information": {
         "corona_eclipse": {
-            "image": "/assets/apps/sun-memory/images/cards/corona_eclipse.jpg",
+            "image": "assets/apps/sun-memory/images/cards/corona_eclipse.jpg",
             "reference": "corona_eclipse"
         },
         "helioseismology": {
-            "image": "/assets/apps/sun-memory/images/cards/helioseismology.jpg",
+            "image": "assets/apps/sun-memory/images/cards/helioseismology.jpg",
             "reference": "helioseismology"
         },
         "sunspot": {
-            "image": "/assets/apps/sun-memory/images/cards/sunspot.jpg",
+            "image": "assets/apps/sun-memory/images/cards/sunspot.jpg",
             "reference": "sunspot"
         },
         "sunspot2": {
-            "image": "/assets/apps/sun-memory/images/cards/sunspot.jpg",
+            "image": "assets/apps/sun-memory/images/cards/sunspot.jpg",
             "reference": "sunspot2"
         },
         "cme": {
-            "image": "/assets/apps/sun-memory/images/cards/cme_icon.jpg",
+            "image": "assets/apps/sun-memory/images/cards/cme.jpg",
             "reference": "cme"
         },
         "coronal_loop": {
-            "image": "/assets/apps/sun-memory/images/cards/coronal_loop.jpg",
+            "image": "assets/apps/sun-memory/images/cards/coronal_loop.jpg",
             "reference": "coronal_loop"
         },
         "aurora": {
-            "image": "/assets/apps/sun-memory/images/cards/aurora.jpg",
+            "image": "assets/apps/sun-memory/images/cards/aurora.jpg",
             "reference": "aurora"
         },
         "convection": {
-            "image": "/assets/apps/sun-memory/images/cards/convection_zone.jpg",
+            "image": "assets/apps/sun-memory/images/cards/convection_zone.jpg",
             "reference": "convection"
         },
         "magnetosphere": {
-            "image": "/assets/apps/sun-memory/images/cards/magnetosphere.jpg",
+            "image": "assets/apps/sun-memory/images/cards/magnetosphere.jpg",
             "reference": "magnetosphere"
         },
         "differential_rotation": {
-            "image": "/assets/apps/sun-memory/images/cards/dr.jpg",
+            "image": "assets/apps/sun-memory/images/cards/dr.jpg",
             "reference": "differential_rotation"
         }
     },

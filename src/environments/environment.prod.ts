@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  pathData: '/exhibits/data/',
-  pathAssets: '/exhibits/assets/'
+  pathData: '/interactives/memory/data/',
+  pathAssets: '/interactives/memory/assets/'
 };
