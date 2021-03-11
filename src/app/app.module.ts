@@ -8,6 +8,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EclipseMemoryGameComponent } from './eclipse-memory/eclipse-memory-game.component';
 import { EclipseMemoryMenuComponent } from './eclipse-memory/eclipse-memory-menu.component';
+
+import { CloudMemoryGameComponent } from './cloud-memory/cloud-memory-game.component';
+import { CloudMemoryMenuComponent } from './cloud-memory/cloud-memory-menu.component';
 import { MemoryModule } from './memory/memory.module';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -15,7 +18,9 @@ import { HttpClientModule } from '@angular/common/http';
   declarations: [
     AppComponent,
     EclipseMemoryGameComponent,
-    EclipseMemoryMenuComponent
+    EclipseMemoryMenuComponent,
+    CloudMemoryGameComponent,
+    CloudMemoryMenuComponent
   ],
   imports: [
     CommonModule,

@@ -6,11 +6,21 @@ import { EclipseMemoryMenuComponent } from './eclipse-memory/eclipse-memory-menu
 import { EclipseMemoryGameComponent } from './eclipse-memory/eclipse-memory-game.component';
 
 
+import { CloudMemoryMenuComponent } from './cloud-memory/cloud-memory-menu.component';
+import { CloudMemoryGameComponent } from './cloud-memory/cloud-memory-game.component';
+
 const routes: Routes = [
-  { path: '',
+  /*{ path: '',
       children: [
         { path: '', component: EclipseMemoryMenuComponent },
         { path: ':id', component: EclipseMemoryGameComponent }
+      ]
+  }*/
+
+  { path: '',
+      children: [
+        { path: '', component: CloudMemoryMenuComponent },
+        { path: ':id', component: CloudMemoryGameComponent }
       ]
   }
 ];
