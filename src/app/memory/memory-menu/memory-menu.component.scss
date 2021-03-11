@@ -1,0 +1,37 @@
+/* app css stylesheet */
+.exhibit {
+  max-width:1920px;
+}
+.web {
+  max-width:1024px;
+}
+.memory-menu-container {
+    width:80%;
+    margin:auto;
+    padding-top: 15%;
+}
+
+.memory_introduction {
+  background: rgba(255, 255, 255, 0.75);
+  padding:10px 20px;
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .instructions {
+    font-size: 24px;
+  }
+}
+
+.game_level_options {
+    margin-left: 50px;
+    button,
+    .creditsButton {
+        display: block;
+        font-size: 14px;
+        margin: 0 10px 10px;
+        padding: 10px 20px;
+        width: 150px;
+   }
+
+}

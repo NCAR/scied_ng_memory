@@ -1,0 +1,345 @@
+{
+    "game": {
+        "backImage": "assets/apps/eclipse-memory/images/cards/cardback.png",
+        "credits": {
+            "text": "<p style='text-align: center;'><img src='assets/images/scied_logo_500x55.png' width='500px'/></p><p>This interactive was created by the <strong>UCAR Center for Science Education</strong>.</p><p>Software design by <strong>Randy M. Russell</strong>, and <strong>Sharon Clark</strong>.<br/>Programming by <strong>Sharon Clark</strong>.</p><p>Educational design and text by <strong>Randy M. Russell</strong>.</p><p>&copy; 2012-2019 University Corporation for Atmospheric Research</p>"
+        },
+        "showPairsText": false,
+        "showScore": false,
+        "showContent": true,
+        "showMessage": false,
+        "showButtons": true,
+        "resolution": "web",
+        "messages": {
+            "click": "Please, select a card.",
+            "one_more": "Pick one more card.",
+            "miss": "Try again.",
+            "match": "Good job!",
+            "won": "You win! ",
+            "buttonTextSelectLevel": "Select Level",
+            "buttonTextRestartLevel": "Restart",
+            "buttonTextPlayAgain":"Play Again",
+            "buttonTextQuit":"Quit",
+            "buttonToggleAudioOn":"Audio Off",
+            "buttonToggleAudioOff":"Audio On"
+        },
+        "levels": {
+            "level1": {
+                "title": "Level 1: Easy"
+            },
+            "level2": {
+                "title": "Level 2: Medium"
+            }
+        },
+        "text": {
+            "introduction": "Choose Game Difficulty Level",
+            "instructions": "<p>Choose a difficulty level. Then click on the tiles (squares) to reveal pictures of different types of clouds. Try to match two pictures.</p>"
+        },
+        "screens": {
+            "menu":{
+              "class": [
+                "eclipse_memory1"
+                ]
+            },
+            "game":{
+              "class": [
+                "eclipse_memory2",
+                "eclipse_memory3"
+              ]
+            }
+        }
+    },
+    "audio": {
+        "first": {
+            "id": "first",
+            "sources": [
+                {
+                    "src": "assets/apps/memory/audio/first_tile_sound.mp3",
+                    "type": "audio/mp3"
+                    }
+				]
+        },
+        "match": {
+            "id": "match",
+            "sources": [
+                {
+                    "src": "assets/apps/memory/audio/match_sound.mp3",
+                    "type": "audio/mp3"
+                    }
+				]
+        },
+        "miss": {
+            "id": "miss",
+            "sources": [
+                {
+                    "src": "assets/apps/memory/audio/miss_sound.mp3",
+                    "type": "audio/mp3"
+                    }
+				]
+        }
+    },
+    "tiles": [
+
+        {
+            "title": "chromosphere",
+            "className": "chromosphere",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "assets/apps/eclipse-memory/images/cards/chromosphere.jpg",
+                "assets/apps/eclipse-memory/images/cards/chromosphere.jpg"
+            ]
+
+        },
+        {
+            "title": "eclipse_chile",
+            "className": "eclipse_chile",
+            "levels": [
+                "level1"
+            ],
+            "images": [
+                "assets/apps/eclipse-memory/images/cards/eclipse_chile.jpg",
+                "assets/apps/eclipse-memory/images/cards/eclipse_chile.jpg"
+            ]
+
+        },
+        {
+            "title": "eclipse_china",
+            "className": "eclipse_china",
+            "levels": [
+                "level1"
+            ],
+            "images": [
+                "assets/apps/eclipse-memory/images/cards/eclipse_china.jpg",
+                "assets/apps/eclipse-memory/images/cards/eclipse_china.jpg"
+            ]
+
+        },
+        {
+            "title": "eclipse_curacao",
+            "className": "eclipse_curacao",
+            "levels": [
+                "level1"
+            ],
+            "images": [
+                "assets/apps/eclipse-memory/images/cards/eclipse_curacao.jpg",
+                "assets/apps/eclipse-memory/images/cards/eclipse_curacao.jpg"
+            ]
+
+        },
+        {
+            "title": "eclipse_diamond_ring",
+            "className": "eclipse_diamond_ring",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "assets/apps/eclipse-memory/images/cards/eclipse_diamond_ring.jpg",
+                "assets/apps/eclipse-memory/images/cards/eclipse_diamond_ring.jpg"
+            ]
+        },
+        {
+            "title": "eclipse_geometry",
+            "className": "eclipse_geometry",
+            "levels": [
+                "level2"
+            ],
+            "images": [
+                "assets/apps/eclipse-memory/images/cards/eclipse_geometry.jpg",
+                "assets/apps/eclipse-memory/images/cards/eclipse_geometry.jpg"
+            ]
+        },
+        {
+            "title": "eclipse_india",
+            "className": "eclipse_india",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "assets/apps/eclipse-memory/images/cards/eclipse_india.jpg",
+                "assets/apps/eclipse-memory/images/cards/eclipse_india.jpg"
+            ]
+
+        },
+        {
+            "title": "eclipse_path_australia1",
+            "className": "eclipse_path_australia1",
+            "levels": [
+                "level2"
+            ],
+            "images": [
+                "assets/apps/eclipse-memory/images/cards/eclipse_path_australia1.jpg",
+                "assets/apps/eclipse-memory/images/cards/eclipse_path_australia1.jpg"
+            ]
+        },
+        {
+            "title": "eclipse_path_australia2",
+            "className": "eclipse_path_australia2",
+            "levels": [
+                "level2"
+            ],
+            "images": [
+                "assets/apps/eclipse-memory/images/cards/eclipse_path_australia2.png",
+                "assets/apps/eclipse-memory/images/cards/eclipse_path_australia2.png"
+            ]
+        },
+        {
+            "title": "eclipse_path_google",
+            "className": "eclipse_path_google",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "assets/apps/eclipse-memory/images/cards/eclipse_path_google.jpg",
+                "assets/apps/eclipse-memory/images/cards/eclipse_path_google.jpg"
+            ]
+        },
+        {
+            "title": "eclipse_path_nasa",
+            "className": "eclipse_path_nasa",
+            "levels": [
+                "level2"
+            ],
+            "images": [
+                "assets/apps/eclipse-memory/images/cards/eclipse_path_nasa.jpg",
+                "assets/apps/eclipse-memory/images/cards/eclipse_path_nasa.jpg"
+            ]
+        },
+        {
+            "title": "eclipse_russia",
+            "className": "eclipse_russia",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "assets/apps/eclipse-memory/images/cards/eclipse_russia.jpg",
+                "assets/apps/eclipse-memory/images/cards/eclipse_russia.jpg"
+            ]
+        },
+        {
+            "title": "eclipse_shadow",
+            "className": "eclipse_shadow",
+            "levels": [
+                "level2"
+            ],
+            "images": [
+                "assets/apps/eclipse-memory/images/cards/eclipse_shadow.jpg",
+                "assets/apps/eclipse-memory/images/cards/eclipse_shadow.jpg"
+            ]
+        }
+    ],
+    "information": {
+        "chromosphere": {
+            "image": "assets/apps/eclipse-memory/images/cards/chromosphere.jpg",
+            "reference": "chromosphere"
+        },
+        "eclipse_chile": {
+            "image": "assets/apps/eclipse-memory/images/cards/eclipse_chile.jpg",
+            "reference": "eclipse_chile"
+        },
+        "eclipse_china": {
+            "image": "assets/apps/eclipse-memory/images/cards/eclipse_china.jpg",
+            "reference": "eclipse_china"
+        },
+        "eclipse_curacao": {
+            "image": "assets/apps/eclipse-memory/images/cards/eclipse_curacao.jpg",
+            "reference": "eclipse_curacao"
+        },
+        "eclipse_diamond_ring": {
+            "image": "assets/apps/eclipse-memory/images/cards/eclipse_diamond_ring.jpg",
+            "reference": "eclipse_diamond_ring"
+        },
+        "eclipse_geometry": {
+            "image": "assets/apps/eclipse-memory/images/cards/eclipse_geometry.jpg",
+            "reference": "eclipse_geometry"
+        },
+        "eclipse_india": {
+            "image": "assets/apps/eclipse-memory/images/cards/eclipse_india.jpg",
+            "reference": "eclipse_india"
+        },
+        "eclipse_path_australia1": {
+            "image": "assets/apps/eclipse-memory/images/cards/eclipse_path_australia1.jpg",
+            "reference": "eclipse_path_australia1"
+        },
+        "eclipse_path_australia2": {
+            "image": "assets/apps/eclipse-memory/images/cards/eclipse_path_australia2.png",
+            "reference": "eclipse_path_australia2"
+        },
+        "eclipse_path_google": {
+            "image": "assets/apps/eclipse-memory/images/cards/eclipse_path_google.jpg",
+            "reference": "eclipse_path_google"
+        },
+        "eclipse_path_nasa": {
+            "image": "assets/apps/eclipse-memory/images/cards/eclipse_path_nasa.jpg",
+            "reference": "eclipse_path_nasa"
+        },
+        "eclipse_russia": {
+            "image": "assets/apps/eclipse-memory/images/cards/eclipse_russia.jpg",
+            "reference": "eclipse_russia"
+        },
+        "eclipse_shadow": {
+            "image": "assets/apps/eclipse-memory/images/cards/eclipse_shadow.jpg",
+            "reference": "eclipse_shadow"
+        }
+    },
+    "infocontent": {
+        "chromosphere": {
+            "title": "Chromosphere",
+            "content": "<p>The Sun's chromosphere (red) and corona as seen from France during a total solar eclipse on August 11, 1999. Photo by Luc Viatour.</p>"
+        },
+        "eclipse_chile": {
+            "title": "Eclipse over Chile",
+            "content": "<p>Total solar eclipse as seen from Putre, Chile on November 3, 1994. The appearance of the corona (Sun's upper atmosphere) in this photo is typical of the \"solar min\" phase of the sunspot cycle. Credit: High Altitude Observatory (HAO) at the National Center for Atmospheric Research (NCAR) in Boulder, Colorado.</p>"
+        },
+        "eclipse_china": {
+            "title": "Eclipse over China",
+            "content": "<p>Total solar eclipse as seen from Hangzhou, China on July 22, 2009. Credit: Williams College Eclipse Expedition - Jay M. Pasachoff, Wendy Carlos, Jon Kern, Sara Dwyer and Rachel Wagner-Kaiser.</p>"
+        },
+        "eclipse_curacao": {
+            "title": "Eclipse over Curacao",
+            "content": "<p>Total solar eclipse as seen from Curacao in the Netherlands Antilles on February 26, 1998. Credit: High Altitude Observatory (HAO) at the National Center for Atmospheric Research (NCAR) in Boulder, Colorado.</p>"
+        },
+        "eclipse_diamond_ring": {
+            "title": "Diamond Ring",
+            "content": "<p>Diamond Ring and Bailey's Beads as seen from Russia during a total solar eclipse on August 1, 2008. Credit: Sandy kil at ru.wikipedia (Russian Wikipedia)</p>"
+        },
+        "eclipse_geometry": {
+            "title": "Eclipse Geometry",
+            "content": "<p>Geometry of the Sun, Moon and Earth during a total solar eclipse. The dark, inner shadow of the Moon where a total eclipse is seen is called the umbra. The lighter, outer shadow, where a partial eclipse can be viewed, is called the penumbra. Credit: Sagredo (from Wikipedia).</p>"
+        },
+        "eclipse_india": {
+            "title": "Eclipse over India",
+            "content": "<p>Total solar eclipse as seen from Palem, India on February 16, 1980. The appearance of the corona (Sun's upper atmosphere) in this photo is typical of the \"solar max\" phase of the sunspot cycle. Credit: High Altitude Observatory (HAO) at the National Center for Atmospheric Research (NCAR) in Boulder, Colorado and Rhodes College in Memphis, Tennessee.</p>"
+        },
+        "eclipse_path_australia1": {
+            "title": "Eclipse Path",
+            "content": "<p>Another Google Maps view of the path of the November 2012 solar eclipse over northeastern Australia and the southern Pacific Ocean. Credit: Xavier M. Jubier.</p>"
+        },
+        "eclipse_path_australia2": {
+            "title": "Eclipse Path",
+            "content": "<p>Another view of the path of the November 2012 solar eclipse over northeastern Australia and the southern Pacific Ocean, projected onto a globe. Credit: Eclipse Predictions by Fred Espenak, NASA's GSFC.</p>"
+        },
+        "eclipse_path_google": {
+            "title": "Eclipse Path",
+            "content": "<p>A Google Maps view of the path of the November 2012 solar eclipse over northeastern Australia. Credit: Eclipse Predictions by Fred Espenak, NASA's GSFC.</p>"
+        },
+        "eclipse_path_nasa": {
+            "title": "Eclipse Path",
+            "content": "<p>Another view of the path of the November 2012 solar eclipse over northeastern Australia and the southern Pacific Ocean, projected onto a globe. Credit: Eclipse Predictions by Fred Espenak, NASA's GSFC.</p>"
+        },
+        "eclipse_russia": {
+            "title": "Eclipse over Russia",
+            "content": "<p>Total solar eclipse as seen from Novosibirsk, Russia on August 1, 2008. Credit: Williams College Expedition - Jay M. Pasachoff, Bryce A. Babcock, William G. Wagner, Matthew Baldwin, Katherine DuPré, Marcus Freeman, Marek Demianski, and Paul Rosenthal, in collaboration with Alphya Nesterenko and Igor Nesterenko of the State University of Novosibirsk, Akademgorodok, Russia. Image processing by Haná Druckmüllerová, Brno Technical University, Czech Republic.</p>"
+          },
+        "eclipse_shadow": {
+            "title": "Moon Shadow",
+            "content": "<p>The shadow of the Moon on Earth as seen from the Mir space station in Earth orbit during the solar eclipse on August 11 1999. Credit: Mir 27 crew, copyright CNES.</p>"
+        }
+    }
+}

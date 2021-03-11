@@ -1,0 +1,6 @@
+<div class="dialog" [hidden]="!visible">
+  <h1 *ngIf="modaltitle">{{modaltitle}}
+  <button *ngIf="closable" (click)="close()" aria-label="Close" class="dialog__close-btn">X</button></h1>
+  <ng-content></ng-content>
+</div>
+<div [hidden]="!visible" class="overlay" (click)="close()"></div>
