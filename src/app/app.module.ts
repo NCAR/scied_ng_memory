@@ -11,6 +11,10 @@ import { EclipseMemoryMenuComponent } from './eclipse-memory/eclipse-memory-menu
 
 import { CloudMemoryGameComponent } from './cloud-memory/cloud-memory-game.component';
 import { CloudMemoryMenuComponent } from './cloud-memory/cloud-memory-menu.component';
+
+import { SunMemoryGameComponent } from './sun-memory/sun-memory-game.component';
+import { SunMemoryMenuComponent } from './sun-memory/sun-memory-menu.component';
+
 import { MemoryModule } from './memory/memory.module';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -20,7 +24,9 @@ import { HttpClientModule } from '@angular/common/http';
     EclipseMemoryGameComponent,
     EclipseMemoryMenuComponent,
     CloudMemoryGameComponent,
-    CloudMemoryMenuComponent
+    CloudMemoryMenuComponent,
+    SunMemoryGameComponent,
+    SunMemoryMenuComponent
   ],
   imports: [
     CommonModule,
