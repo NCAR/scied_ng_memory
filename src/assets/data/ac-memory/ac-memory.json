@@ -1,0 +1,569 @@
+{
+    "game": {
+        "backImage": "assets/apps/ac-memory/images/cards/cardback.png",
+        "credits": {
+            "text": "<p style='text-align: center;'><img src='assets/images/scied_logo_500x55.png' width='500px'/></p><p>This interactive was created by the <strong>UCAR Center for Science Education</strong>.</p><p>Software design by <strong>Randy M. Russell</strong>, and <strong>Sharon Clark</strong>.<br/>Programming by <strong>Sharon Clark</strong>.</p><p>Educational design and text by <strong>Randy M. Russell</strong>.</p><p>&copy; 2012-2019 University Corporation for Atmospheric Research</p>"
+        },
+        "showPairsText": false,
+        "showScore": false,
+        "showContent": true,
+        "showMessage": false,
+        "showButtons": true,
+        "resolution": "web",
+        "messages": {
+            "click": "Please, select a card.",
+            "one_more": "Pick one more card.",
+            "miss": "Try again.",
+            "match": "Good job!",
+            "won": "You win! ",
+            "buttonTextSelectLevel": "Select Level",
+            "buttonTextRestartLevel": "Restart",
+            "buttonTextPlayAgain":"Play Again",
+            "buttonTextQuit":"Quit",
+            "buttonToggleAudioOn":"Audio Off",
+            "buttonToggleAudioOff":"Audio On"
+        },
+        "levels": {
+            "level1": {
+                "title": "Level 1"
+            },
+            "level2": {
+                "title": "Level 2"
+            },
+            "level3": {
+                "title": "Level 3"
+            },
+            "level4": {
+                "title": "Level 4"
+            },
+            "level5": {
+                "title": "Level 5"
+            }
+        },
+        "text": {
+            "introduction": "Choose Game Difficulty Level",
+            "instructions": "<p>Choose a difficulty level. Then click on the tiles (squares) to reveal pictures of different types of clouds. Try to match two pictures.</p>"
+        },
+        "screens": {
+            "menu":{
+              "class": [
+                "ac_memory4"
+                ]
+            },
+            "game":{
+              "class": [
+                "ac_memory1",
+                "ac_memory2",
+                "ac_memory3"
+              ]
+            }
+        }
+    },
+    "audio": {
+        "first": {
+            "id": "first",
+            "sources": [
+                {
+                    "src": "assets/apps/memory/audio/first_tile_sound.mp3",
+                    "type": "audio/mp3"
+                    }
+				]
+        },
+        "match": {
+            "id": "match",
+            "sources": [
+                {
+                    "src": "assets/apps/memory/audio/match_sound.mp3",
+                    "type": "audio/mp3"
+                    }
+				]
+        },
+        "miss": {
+            "id": "miss",
+            "sources": [
+                {
+                    "src": "assets/apps/memory/audio/miss_sound.mp3",
+                    "type": "audio/mp3"
+                    }
+				]
+        }
+    },
+    "tiles": [
+
+        {
+            "title": "bsf_c3h8",
+            "className": "bsf_c3h8",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/c3h8_molecule_ballstick_formula_150x150.png",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/c3h8_molecule_ballstick_formula_150x150.png"
+            ]
+
+        },
+        {
+            "title": "bsf_c3h8",
+            "className": "bsf_c3h8",
+            "levels": [
+                "level4"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/c3h8_molecule_ballstick_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/c3h8_molecule_ballstick_formula_150x150.png"
+            ]
+
+        },
+        {
+            "title": "bsf_c3h8",
+            "className": "bsf_c3h8",
+            "levels": [
+                "level5"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/c3h8_molecule_ballstick_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/formula/c3h8_molecule_formula_150x150.png"
+            ]
+
+        },
+        {
+            "title": "bsf_ch4",
+            "className": "bsf_ch4",
+            "levels": [
+                "level2"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/ch4_molecule_ballstick_formula_150x150.png",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/ch4_molecule_ballstick_formula_150x150.png"
+            ]
+
+        },
+        {
+            "title": "bsf_ch4",
+            "className": "bsf_ch4",
+            "levels": [
+                "level3",
+                "level4"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/ch4_molecule_ballstick_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/ch4_molecule_ballstick_formula_150x150.png"
+            ]
+        },
+        {
+            "title": "bsf_ch4",
+            "className": "bsf_ch4",
+            "levels": [
+                "level5"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/ch4_molecule_ballstick_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/formula/ch4_molecule_formula_150x150.png"
+            ]
+        },
+        {
+            "title": "bsf_co",
+            "className": "bsf_co",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/co_molecule_ballstick_formula_150x150.png",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/co_molecule_ballstick_formula_150x150.png"
+            ]
+
+        },
+        {
+            "title": "bsf_co",
+            "className": "bsf_co",
+            "levels": [
+                "level3"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/co_molecule_ballstick_150x150.png",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/co_molecule_ballstick_formula_150x150.png"
+            ]
+        },
+        {
+            "title": "bsf_co",
+            "className": "bsf_co",
+            "levels": [
+                "level5"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/co_molecule_ballstick_150x150.png",
+                "assets/apps/ac-memory/images/cards/formula/co_molecule_formula_150x150.png"
+            ]
+        },
+        {
+            "title": "bsf_co2",
+            "className": "bsf_co2",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/co2_molecule_ballstick_formula_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/co2_molecule_ballstick_formula_150x150.jpg"
+            ]
+
+        },
+        {
+            "title": "bsf_co2",
+            "className": "bsf_co2",
+            "levels": [
+                "level3"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/co2_molecule_ballstick_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/co2_molecule_ballstick_formula_150x150.jpg"
+            ]
+        },
+        {
+            "title": "bsf_co2",
+            "className": "bsf_co2",
+            "levels": [
+                "level5"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/co2_molecule_ballstick_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/formula/co2_molecule_formula_150x150.png"
+            ]
+        },
+        {
+            "title": "bsf_h2so4",
+            "className": "bsf_h2so4",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/h2so4_molecule_ballstick_formula_150x150.png",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/h2so4_molecule_ballstick_formula_150x150.png"
+            ]
+
+        },
+        {
+            "title": "bsf_h2so4",
+            "className": "bsf_h2so4",
+            "levels": [
+                "level4"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/h2so4_molecule_ballstick_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/h2so4_molecule_ballstick_formula_150x150.png"
+            ]
+        },
+        {
+            "title": "bsf_h2so4",
+            "className": "bsf_h2so4",
+            "levels": [
+                "level5"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/h2so4_molecule_ballstick_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/formula/h2so4_molecule_formula_150x150.png"
+            ]
+        },
+        {
+            "title": "bsf_hno3",
+            "className": "bsf_hno3",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/hno3_molecule_ballstick_formula_150x150.png",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/hno3_molecule_ballstick_formula_150x150.png"
+            ]
+
+        },
+        {
+            "title": "bsf_hno3",
+            "className": "bsf_hno3",
+            "levels": [
+                "level4"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/hno3_molecule_ballstick_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/hno3_molecule_ballstick_formula_150x150.png"
+            ]
+        },
+        {
+            "title": "bsf_hno3",
+            "className": "bsf_hno3",
+            "levels": [
+                "level5"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/hno3_molecule_ballstick_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/formula/hno3_molecule_formula_150x150.png"
+            ]
+        },
+        {
+            "title": "bsf_n2",
+            "className": "bsf_n2",
+            "levels": [
+                "level1"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/n2_molecule_ballstick_formula_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/n2_molecule_ballstick_formula_150x150.jpg"
+            ]
+
+        },
+        {
+            "title": "bsf_n2",
+            "className": "bsf_n2",
+            "levels": [
+                "level3",
+                "level4"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/n2_molecule_ballstick_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/n2_molecule_ballstick_formula_150x150.jpg"
+            ]
+
+        },
+        {
+            "title": "bsf_no2",
+            "className": "bsf_no2",
+            "levels": [
+                "level2"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/no2_molecule_ballstick_formula_150x150.png",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/no2_molecule_ballstick_formula_150x150.png"
+            ]
+
+        },
+        {
+            "title": "bsf_no2",
+            "className": "bsf_no2",
+            "levels": [
+                "level3",
+                "level4"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/no2_molecule_ballstick_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/no2_molecule_ballstick_formula_150x150.png"
+            ]
+        },
+        {
+            "title": "bsf_no2",
+            "className": "bsf_no2",
+            "levels": [
+                "level5"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/no2_molecule_ballstick_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/formula/no2_molecule_formula_150x150.png"
+            ]
+        },
+        {
+            "title": "bsf_o2",
+            "className": "bsf_o2",
+            "levels": [
+                "level1",
+                "level2",
+                "level4"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/o2_molecule_ballstick_formula_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/o2_molecule_ballstick_formula_150x150.jpg"
+            ]
+
+        },
+        {
+            "title": "bsf_o2",
+            "className": "bsf_o2",
+            "levels": [
+                "level3"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/o2_molecule_ballstick_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/o2_molecule_ballstick_formula_150x150.jpg"
+            ]
+        },
+        {
+            "title": "bsf_o2",
+            "className": "bsf_o2",
+            "levels": [
+                "level5"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/o2_molecule_ballstick_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/formula/o2_molecule_formula_150x150.png"
+            ]
+        },
+        {
+            "title": "bsf_so2",
+            "className": "bsf_so2",
+            "levels": [
+                "level2",
+                "level4"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/so2_molecule_ballstick_formula_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/so2_molecule_ballstick_formula_150x150.jpg"
+            ]
+
+        },
+        {
+            "title": "bsf_so2",
+            "className": "bsf_so2",
+            "levels": [
+                "level3",
+                "level4"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/so2_molecule_ballstick_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/so2_molecule_ballstick_formula_150x150.jpg"
+            ]
+        },
+        {
+            "title": "bsf_so2",
+            "className": "bsf_so2",
+            "levels": [
+                "level5"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/so2_molecule_ballstick_150x150.jpg",
+                "assets/apps/ac-memory/images/cards/formula/so2_molecule_formula_150x150.png"
+            ]
+        },
+        {
+            "title": "bsf_so3",
+            "className": "bsf_so3",
+            "levels": [
+                "level1",
+                "level2"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/so3_molecule_ballstick_formula_150x150.png",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/so3_molecule_ballstick_formula_150x150.png"
+            ]
+        },
+        {
+            "title": "bsf_so3",
+            "className": "bsf_so3",
+            "levels": [
+                "level3",
+                "level4"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/so3_molecule_ballstick_150x150.png",
+                "assets/apps/ac-memory/images/cards/ball_stick_and_formula/so3_molecule_ballstick_formula_150x150.png"
+            ]
+        },
+        {
+            "title": "bsf_so3",
+            "className": "bsf_so3",
+            "levels": [
+                "level5"
+            ],
+            "images": [
+                "assets/apps/ac-memory/images/cards/ball_stick/so3_molecule_ballstick_150x150.png",
+                "assets/apps/ac-memory/images/cards/formula/so3_molecule_formula_150x150.png"
+            ]
+        }
+    ],
+    "information": {
+        "bsf_c3h8": {
+            "image": "assets/apps/ac-memory/images/cards/ball_stick_and_formula/c3h8_molecule_ballstick_formula_150x150.png",
+            "reference": "bsf_c3h8"
+        },
+        "bsf_ch4": {
+            "image": "assets/apps/ac-memory/images/cards/ball_stick_and_formula/ch4_molecule_ballstick_formula_150x150.png",
+            "reference": "bsf_ch4"
+        },
+        "bsf_co": {
+            "image": "assets/apps/ac-memory/images/cards/ball_stick_and_formula/co_molecule_ballstick_formula_150x150.png",
+            "reference": "bsf_co"
+        },
+        "bsf_co2": {
+            "image": "assets/apps/ac-memory/images/cards/ball_stick_and_formula/co2_molecule_ballstick_formula_150x150.jpg",
+            "reference": "bsf_co2"
+        },
+        "bsf_n2": {
+            "image": "assets/apps/ac-memory/images/cards/ball_stick_and_formula/n2_molecule_ballstick_formula_150x150.jpg",
+            "reference": "bsf_n2"
+        },
+        "bsf_h2so4": {
+            "image": "assets/apps/ac-memory/images/cards/ball_stick_and_formula/h2so4_molecule_ballstick_formula_150x150.png",
+            "reference": "bsf_h2so4"
+        },
+        "bsf_hno3": {
+            "image": "assets/apps/ac-memory/images/cards/ball_stick_and_formula/hno3_molecule_ballstick_formula_150x150.png",
+            "reference": "bsf_hno3"
+        },
+        "bsf_bs_n2": {
+            "image": "assets/apps/ac-memory/images/cards/ball_stick_and_formula/n2_molecule_ballstick_formula_150x150.jpg",
+            "reference": "bsf_bs_n2"
+        },
+        "bsf_no2": {
+            "image": "assets/apps/ac-memory/images/cards/ball_stick_and_formula/no2_molecule_ballstick_formula_150x150.png",
+            "reference": "bsf_no2"
+        },
+        "bsf_o2": {
+            "image": "assets/apps/ac-memory/images/cards/ball_stick_and_formula/o2_molecule_ballstick_formula_150x150.jpg",
+            "reference": "bsf_o2"
+        },
+        "bsf_so2": {
+            "image": "assets/apps/ac-memory/images/cards/ball_stick_and_formula/so2_molecule_ballstick_formula_150x150.jpg",
+            "reference": "bsf_so2"
+        },
+        "bsf_so3": {
+            "image": "assets/apps/ac-memory/images/cards/ball_stick_and_formula/so3_molecule_ballstick_formula_150x150.png",
+            "reference": "bsf_so3"
+        }
+    },
+    "infocontent": {
+        "bsf_c3h8": {
+            "title": "Propane (C<sub>3</sub>H<sub>8</sub>)",
+            "content": "<p>Propane is a type of gas, commonly burned for heating, cooking, and as a fuel for engines. Propane is an example of a class of chemicals called \"hydrocarbons,\" which are made up of carbon and hydrogen atoms. Hydrocarbons and their byproducts contribute to air pollution.</p>"
+        },
+        "bsf_ch4": {
+            "title": "Methane (CH<sub>4</sub>)",
+            "content": "<p>The concentration of methane in our atmosphere is small, around 1.8 parts per million (ppm), but as a powerful greenhouse gas, methane has a big impact on climate. The concentration of methane in our atmosphere has risen by about 150% since 1750, largely due to human activities.</p>"
+        },
+        "bsf_co": {
+            "title": "Carbon Monoxide (CO)",
+            "content": "<p>Carbon monoxide, an air pollutant that is hazardous to our health, is present in the atmosphere at very small concentrations, typically about 100 parts per billion (ppb) in the troposphere. Very clean air can have concentrations as low as 50 ppb.</p>"
+        },
+        "bsf_co2": {
+            "title": "Carbon Dioxide (CO<sub>2</sub>)",
+            "content": "<p>Carbon dioxide is a greenhouse gas that traps heat in our atmosphere. Without any carbon dioxide, our planet would be inhospitably cold. However, increasing CO<sub>2</sub> concentrations are causing average global temperatures to rise, which is causing changes in precipitation patterns and other aspects of climate. </p>"
+        },
+        "bsf_h2so4": {
+            "title": "Sulfuric Acid (H<sub>2</sub>SO<sub>4</sub>)",
+            "content": "<p>Sulfuric acid is a component of acid rain, which forms from air pollutants, especially those released when sulfur-rich coal and oil is burned. The air pollutants contain sulfur dioxide (SO<sub>2</sub>), which changes into sulfur trioxide (SO<sub>3</sub>), and then into sulfuric acid when mixed with droplets of water in the atmosphere. </p>"
+        },
+        "bsf_hno3": {
+            "title": "Nitric Acid (HNO<sub>3</sub>)",
+            "content": "<p>Nitric acid is a component of acid rain, which forms from air pollutants, especially those emitted from car and truck engines. Burning gasoline emits nitrogen oxides, which, when mixed with water vapor in the air, turn into nitric acid.</p>"
+        },
+        "bsf_n2": {
+            "title": "Nitrogen (N<sub>2</sub>)",
+            "content": "<p>Two nitrogen atoms bonded together make up a nitrogen molecule, the most abundant molecule in our atmosphere. Nearly 80% of the molecules in our atmosphere are nitrogen. While there are air pollutants that contain nitrogen atoms, nitrogen molecules cause no harm. </p>"
+        },
+        "bsf_no2": {
+            "title": "Nitrogen Oxides (NO<sub>2</sub>)",
+            "content": "<p>Nitrogen oxides, including nitric oxide (NO) and nitrogen dioxide (NO<sub>2</sub>), are partially responsible for several types of air pollution. Nitrogen dioxide lends its color to the reddish-brown haze we call smog. Photodissociation of nitrogen dioxide by sunlight produces nitric oxide and ozone in the troposphere, which is another component of smog. </p>"
+        },
+        "bsf_o2": {
+            "title": "Oxygen (O<sub>2</sub>)",
+            "content": "<p>About 21% of Earth's atmosphere is oxygen. This hasn't always been the case, though. Early in our planet's history, the atmosphere had almost no oxygen. Microbes, which produced their food by photosynthesis, generated oxygen as a by-product. It built up in the atmosphere, drastically changing our planet's environment and the history of life in the process.</p>"
+        },
+        "bsf_so2": {
+            "title": "Sulfur Dioxide (SO<sub>2</sub>)",
+            "content": "<p>Sulfuric dioxide is one of the building blocks of sulfuric acid, a component of acid rain. It’s released when sulfur-rich coal and oil is burned. It changes into sulfur trioxide (SO<sub>3</sub>) and then into sulfuric acid when mixed with droplets of water in the atmosphere</p>"
+        },
+        "bsf_so3": {
+            "title": "Sulfur Trioxide (SO<sub>3</sub>)",
+            "content": "<p>Sulfuric trioxide is one of the building blocks of sulfuric acid, a component of acid rain. It forms when sulfur dioxide, which is emitted into the atmosphere when coal and oil is burned, comes in contact with droplets of water in the atmosphere.</p>"
+        }
+    }
+}

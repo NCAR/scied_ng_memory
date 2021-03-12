@@ -9,6 +9,9 @@ import { AppComponent } from './app.component';
 import { EclipseMemoryGameComponent } from './eclipse-memory/eclipse-memory-game.component';
 import { EclipseMemoryMenuComponent } from './eclipse-memory/eclipse-memory-menu.component';
 
+import { AcMemoryGameComponent } from './ac-memory/ac-memory-game.component';
+import { AcMemoryMenuComponent } from './ac-memory/ac-memory-menu.component';
+
 import { CloudMemoryGameComponent } from './cloud-memory/cloud-memory-game.component';
 import { CloudMemoryMenuComponent } from './cloud-memory/cloud-memory-menu.component';
 
@@ -30,6 +33,8 @@ declare module "@angular/core" {
     AppComponent,
     EclipseMemoryGameComponent,
     EclipseMemoryMenuComponent,
+    AcMemoryGameComponent,
+    AcMemoryMenuComponent,
     CloudMemoryGameComponent,
     CloudMemoryMenuComponent,
     SunMemoryGameComponent,
