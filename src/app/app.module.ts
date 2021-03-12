@@ -18,6 +18,13 @@ import { SunMemoryMenuComponent } from './sun-memory/sun-memory-menu.component';
 import { MemoryModule } from './memory/memory.module';
 import { HttpClientModule } from '@angular/common/http';
 
+declare module "@angular/core" {
+  interface ModuleWithProviders<T = any> {
+    ngModule: Type<T>;
+    providers?: Provider[];
+  }
+}
+
 @NgModule({
   declarations: [
     AppComponent,
