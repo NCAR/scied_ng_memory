@@ -126,7 +126,6 @@
       }
     }
   },
-  "defaultProject": "eclipse-memory",
   "cli": {
     "analytics": false
   }
